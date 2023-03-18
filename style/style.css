@@ -1,0 +1,314 @@
+body{
+    margin: 0px;
+  padding: 0px; 
+  font-size: roboto; 
+} 
+/*logo default*/ 
+.logo{
+    width: 350px; 
+    height: 50px; 
+    position: fixed; 
+    background-color: white;
+    
+} 
+
+/*style du menu ul*/ 
+.menu ul{
+    width: 1500px; 
+    height: 50px; 
+    display: block; 
+    position: fixed; 
+    background-color: white;
+   
+} 
+/*style du menu li*/ 
+.menu li{  
+    list-style: none; 
+    padding: 25px; 
+    float: left; 
+    
+} 
+/*style du menu a*/ 
+.menu a{
+    text-decoration: none; 
+    color: #474747; 
+
+} 
+/*style submenu*/
+.submenu{
+    display: none; 
+} 
+
+/*autre couleur du menu*/
+.menu ul a:hover{ 
+    color: #00b39b;
+
+} 
+/*logo*/ 
+.logo2{ 
+    text-align: center;
+    width: 40px;
+    height: 39px;
+    
+}   
+
+.logo2{
+    display: block;
+    margin: 0 auto;
+}  
+/*marketing*/
+
+.Marketing h1{
+    padding: 5px; 
+    color: #00b39b;
+    text-align: center;
+}
+
+.Marketing p{
+    font-weight: bold;
+    color: #747474; 
+
+}
+   /*  box */ 
+.flex-box{
+ 
+  display: flex;  
+  justify-content: center;
+    
+} 
+.box{
+  margin: 10px;
+    text-align: center; 
+    color: white; 
+    font-size: medium;
+  
+   
+}
+.box1{
+    background-color: #00b39b; 
+    width: 300px;  
+    height: 420px; 
+    padding: 10px; 
+    border-radius: 10px;
+    
+    
+
+} 
+
+.box2{
+    background-color:skyblue; 
+    width: 300px;  
+    height: 420px; 
+    border-radius: 10px;
+    
+} 
+    
+.box3{
+    background-color:#15153d; 
+    width: 300px;  
+    height: 420px; 
+    border-radius: 10px;
+} 
+    /* icone*/
+.fa-solid{
+    width: 250px;
+    text-align: left;
+} 
+/* description docplanner*/
+.entreprise p{
+    color: #00b39b;
+    margin: 50px;
+    padding: 30px; 
+   font-size: larger; 
+   
+} 
+
+.section1{ 
+    display: flex; 
+    margin: 15px; 
+    display: inline-flex;     
+   
+}
+
+
+.section2{
+    display: flex; 
+    margin: 15px; 
+    display: inline-flex; 
+   /* catalogues*/
+}
+  .emplacement{
+    background-color: #C4FCCA;
+    width: 1500px;
+    height: 1000px; 
+    margin: 20px; 
+    padding: 150px; 
+  
+  } 
+
+  .emplacement h1{
+    color: #00b39b; 
+  } 
+  .emplacement p{
+    color: #747474;
+    font-size: large;
+  }
+  
+   .contrie{ 
+    background-color: white;
+    width: 250px;
+    height: 250px; 
+    border-radius: 8px;
+    
+}
+
+.contrie{
+   width: 100% 
+   
+} 
+.contrie h1{ 
+    font-size: large;
+    width: 100% 
+    
+
+} 
+.contrie p{ 
+    width: 100%; 
+    color: #747474   
+}
+ 
+
+.malade{
+    background-color: white; 
+    width: 250px;
+    height: 280px; 
+    margin-left: 290px; 
+    margin-top: -300px;    
+    border-radius: 8px;
+}
+ 
+ .malade h1{
+    font-size: large;
+    width: 100% 
+ } 
+ .malade p{
+    width: 100%; 
+    color: #684d4d
+ }  
+
+.rendez-vous{
+    width: 250px; 
+    height: 250px;
+    background-color: white;  
+    margin-left: 0px; 
+    margin-top: +20px; 
+    border-radius: 8px;
+   
+    
+     } 
+
+.rendez-vous h1{
+    font-size: large;
+    width: 100%;
+}
+ .rendez-vous p{
+    width: 100%; 
+    color: #747474
+ } 
+ .medecin{
+    width: 250px; 
+    height: 250px;
+    background-color: white; 
+    margin-top: -556px; 
+    margin-left: 290px;
+    border-radius: 8px;
+    
+    
+   
+}  
+.medecin h1{
+    font-size: large;
+    width: 100% 
+} 
+.medecin p{
+    width: 100%; 
+    color: #747474
+}  
+/* les villes*/
+.ville h1{ 
+    color: #00b39b; 
+    text-align: center; 
+    margin: 50px; 
+    font-size: xx-large;
+
+}   
+.ville p{
+    color: #747474; 
+    text-align: center;
+
+}
+ .flex-box2{
+    margin: 20px; 
+    text-align: center;
+ }
+
+.flex-box3{
+   margin: 20px; 
+   text-align: center;
+} 
+.flex-box4{
+     
+    text-align: center;
+ } 
+ .flex-box4 h1{
+    text-align: center; 
+    font-size: x-large;
+    margin-top: 200px;
+ } 
+ 
+
+ .flex-box4 h2 a{
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    font-size: small; 
+
+ }  
+ .flex-box4 h2{
+    background-color: #3d83df;
+    color: white; 
+    margin: 380px; 
+    margin-top: 50px;
+    
+ } 
+ .flex-box4 a{
+    text-decoration: none;
+ }
+ /*mon pied de page*/  
+ .fin p{
+    text-align: center;
+    color: #747474; 
+    font-size: 12px; 
+    margin-top: -23px;
+    
+ } 
+ .contry{
+    color: #3d83df; 
+ }
+.line{
+    border-bottom: 1px solid; 
+    color: #747474; 
+    margin-top: -300px;
+}
+
+.ETROILE{
+    float: right;
+    width: 600px;
+    height: 535px;
+    margin: 0%;
+    padding: 0%;
+}
+
+ 
+ 
+ 
